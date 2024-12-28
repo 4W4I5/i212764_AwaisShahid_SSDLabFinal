@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block page_title %}Welcome{% endblock %}
+{% block body %}
+    {{ super() }}
+
+    <p>This is a minimal web app developed with <a href="http://flask.pocoo.org/">Flask</a> framework.</p>
+    <p>The main purpose is to introduce how to implement the essential elements in web applications with Flask, including</p>
+    <ul>
+        <li>URL Building</li>
+        <li>Authentication with Sessions</li>
+        <li>Template & Template Inheritance</li>
+        <li>Error Handling</li>
+        <li>Integrating with Bootstrap</li>
+        <li>Interaction with Database (SQLite)</li>
+        <li>Invoking static resources</li>
+        <li>Upload files</li>
+    </ul>
+
+    <h1>Test Unauthorized CSP Script</h1>
+    <button onclick="loadMaliciousScript()">Click to Load Malicious Script</button>
+
+    <script>
+        function loadMaliciousScript() {
+            // This will try to load a script from an unauthorized source.
+            var script = document.createElement("script");
+            script.src = "https://malicious.com/malicious.js";
+            document.head.appendChild(script);
+        }
+    </script>
+
+    <p>For more basic knowledge of Flask, you can refer to <a href="https://www.tutorialspoint.com/flask/">a tutorial on Tutorialspoint</a>.</p>
+{% endblock %}

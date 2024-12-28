@@ -1,0 +1,9 @@
+2024-12-28 15:03:50,481 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:03:54,265 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:04:28,720 - WARNING - Failed login attempt for user: AS
+2024-12-28 15:10:05,699 - WARNING - Failed login attempt for user: ASDAS
+2024-12-28 15:11:11,294 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:11:13,734 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:11:16,297 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:11:18,482 - WARNING - Failed login attempt for user: ADMIN
+2024-12-28 15:11:18,782 - WARNING - Rate limit exceeded: 127.0.0.1
